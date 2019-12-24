@@ -352,5 +352,5 @@ function loadVideo(id) {
 // Индентификатор клиента OAuth для того чтоб запостить к примеру видос с моб приложения-нужен и пароль и логин.
 // myintensive22122019@gmail.com
 
-
+//https://console.developers.google.com/apis/  google key
 //02.03.00
