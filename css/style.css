@@ -164,7 +164,8 @@ hr {
 
 .videos__wrapper {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .videos__item {
