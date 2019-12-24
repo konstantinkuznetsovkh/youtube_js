@@ -130,7 +130,7 @@ switcher.addEventListener('change', () => {
 //создаём функцию которая будет загружать данные с ютуба
 function load() {
     gapi.client.init({ //во внутрь мы помещаем обьект ({})
-        'apiKey': 'AIzaSyDr6mhn4HuvdG2ls17KZPsAjnpSzzqN0mk', // подставляем наш реальный API key
+        'apiKey': 'AIzaSyCFMU84D42hDbBpNMdpnGVMq7Pjeruj-1I', // подставляем наш реальный API key
         'discoveryDocs': ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"]
     }).then(() => { //когда сервер вернул обещания  я выполняю функцию
         return gapi.client.youtube.playlistItems.list({ //https://developers.google.com/youtube/v3/docs/playlistItems/list?apix=true click see code samples -titorial и выбрать джс или полистать ниже - пример кода
