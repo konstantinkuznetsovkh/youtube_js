@@ -122,7 +122,7 @@ more.addEventListener('click', () => {
 //start search youtube////
 function search(target) {
     gapi.client.init({
-        'apiKey': 'AIzaSyDr6mhn4HuvdG2ls17KZPsAjnpSzzqN0mk',
+        'apiKey': 'AIzaSyCFMU84D42hDbBpNMdpnGVMq7Pjeruj-1I',
         'discoveryDocs': ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"]
     }).then(() => {
         return gapi.client.youtube.search.list({
